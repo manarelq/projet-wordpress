@@ -1,0 +1,218 @@
+# <!=Copyright (C) 2022 Blossom Themes
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Fashion Lifestyle 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/fashion-lifestyle\n"
+"POT-Creation-Date: 2022-07-14 05:47:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: functions.php:103
+msgid "Demo & Documentation"
+msgstr ""
+
+#: functions.php:118
+msgid "%1$sDemo Link:%2$s %3$sClick here.%4$s"
+msgstr ""
+
+#: functions.php:120
+msgid "%1$sDocumentation Link:%2$s %3$sClick here.%4$s"
+msgstr ""
+
+#: functions.php:136
+msgid "Typography"
+msgstr ""
+
+#: functions.php:156
+msgid "Primary Font"
+msgstr ""
+
+#: functions.php:157
+msgid "Primary font of the site."
+msgstr ""
+
+#: functions.php:177
+msgid "Secondary Font"
+msgstr ""
+
+#: functions.php:178
+msgid "Secondary font of the site."
+msgstr ""
+
+#: functions.php:200
+msgid "Font Size"
+msgstr ""
+
+#: functions.php:201
+msgid "Change the font size of your site."
+msgstr ""
+
+#: functions.php:225
+msgid "Load Google Fonts Locally"
+msgstr ""
+
+#: functions.php:226
+msgid ""
+"Enable to load google fonts from your own server instead from google's CDN. "
+"This solves privacy concerns with Google's CDN and their sometimes "
+"less-than-transparent policies."
+msgstr ""
+
+#: functions.php:245
+msgid "Preload Local Fonts"
+msgstr ""
+
+#: functions.php:246
+msgid "Preloading Google fonts will speed up your website speed."
+msgstr ""
+
+#: functions.php:254
+msgid "Click the button to reset the local fonts cache"
+msgstr ""
+
+#: functions.php:256
+msgid "Flush Local Font Files"
+msgstr ""
+
+#: functions.php:270
+msgid "Flush Local Fonts Cache"
+msgstr ""
+
+#: functions.php:291
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:292
+msgid "Primary color of the theme."
+msgstr ""
+
+#: functions.php:303
+msgid "Layout Settings"
+msgstr ""
+
+#: functions.php:312 functions.php:332
+msgid "Header Layout"
+msgstr ""
+
+#: functions.php:333
+msgid "This is the available layout for header"
+msgstr ""
+
+#: functions.php:347
+msgid "Slider Layouts"
+msgstr ""
+
+#: functions.php:368
+msgid "Slider Layout"
+msgstr ""
+
+#: functions.php:369
+msgid "Choose the layout of the slider for your site."
+msgstr ""
+
+#: functions.php:383
+msgid "Home Page Layouts"
+msgstr ""
+
+#: functions.php:403
+msgid "Home Page Layout"
+msgstr ""
+
+#: functions.php:404
+msgid "Choose the layout of the home page for your site."
+msgstr ""
+
+#: functions.php:499
+msgid "Menu"
+msgstr ""
+
+#: functions.php:537
+msgid "Mobile"
+msgstr ""
+
+#: functions.php:1067
+msgid " Fashion Lifestyle | Developed By "
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Blossom Themes"
+msgstr ""
+
+#: functions.php:1069
+msgid " Powered by %s"
+msgstr ""
+
+#: functions.php:1069
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Fashion Lifestyle"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://blossomthemes.com/themes/fashion-lifestyle-free-wordpress-theme"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fashion Lifestyle is a child theme of Blossom Fashion WordPress blog theme "
+"to create stunning, lively and eye catching website. Whether you want to "
+"share your expert fashion tips, your favorite recipes or create a "
+"lifestyle, travel, food, beauty, make-up, coaching, wedding, portfolio, "
+"personal, girly, parenting or cooking blog, Fashion Lifestyle is an ideal "
+"choice for you. You can easily customize your website using the typography "
+"and color features. You can change the color to pink, purple, or any color "
+"you like. Fashion Lifestyle is mobile friendly and fully responsive to "
+"ensure your website looks great in different sized devices. Beautifully "
+"placed Instagram section can be used to show your Instagram account and "
+"increase your followers. The advertisement widget in the theme will help "
+"you easily monetize your blog. The well placed Newsletter section will help "
+"you to grow your email list and keep in touch with your visitors. Fashion "
+"Lifestyle is SEO friendly and speed optimized. The theme is translation "
+"ready and supports RTL and WooCommerce plugin for your utmost benefit. In "
+"addition, Fashion Lifestyle is backed by world class, one-on-one support, "
+"and a super active team of developers and designers ready to help! Check "
+"demo: https://blossomthemes.com/theme-demo/?theme=fashion-lifestyle, read "
+"documentation: https://docs.blossomthemes.com/docs/fashion-lifestyle/, and "
+"get support: https://blossomthemes.com/support-ticket/"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://blossomthemes.com/"
+msgstr ""
+
+#: functions.php:735
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:736
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:737
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr ""

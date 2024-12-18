@@ -1,0 +1,164 @@
+# Translation of Themes - Fashion Lifestyle in French (France)
+# This file is distributed under the same license as the Themes - Fashion Lifestyle package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-03 20:23:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Fashion Lifestyle\n"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Fashion Lifestyle"
+msgstr "Fashion Lifestyle"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Fashion Lifestyle is a child theme of Blossom Fashion WordPress blog theme to create stunning, lively and eye catching website. Whether you want to share your expert fashion tips, your favorite recipes or create a lifestyle, travel, food, beauty, make-up, coaching, wedding, portfolio, personal, girly, parenting or cooking blog, Fashion Lifestyle is an ideal choice for you. You can easily customize your website using the typography and color features. You can change the color to pink, purple, or any color you like. Fashion Lifestyle is mobile friendly and fully responsive to ensure your website looks great in different sized devices. Beautifully placed Instagram section can be used to show your Instagram account and increase your followers. The advertisement widget in the theme will help you easily monetize your blog. The well placed Newsletter section will help you to grow your email list and keep in touch with your visitors. Fashion Lifestyle is SEO friendly and speed optimized. The theme is translation ready and supports RTL and WooCommerce plugin for your utmost benefit. In addition, Fashion Lifestyle is backed by world class, one-on-one support, and a super active team of developers and designers ready to help! Check demo: https://blossomthemes.com/theme-demo/?theme=fashion-lifestyle, read documentation: https://docs.blossomthemes.com/docs/fashion-lifestyle/, and get support: https://blossomthemes.com/support-ticket/"
+msgstr "Fashion Lifestyle est un thème enfant du thème de blog WordPress Blossom Fashion pour créer un site exceptionnel, convivial et attrayant. Que vous souhaitiez partager vos conseils d’expert de la mode, vos recettes préférées ou créer un blog de style de vie, voyage, nourriture, beauté, maquillage, coaching, mariage, portfolio, personnel, girly, parental ou de cuisine, Fashion Lifestyle est un choix idéal pour vous. Vous pouvez facilement personnaliser votre site web en utilisant les fonctionnalités de typographie et couleur. Vous pouvez modifier la couleur en rose, violet, ou la couleur de votre choix. Fashion Lifestyle est optimisé pour mobile et entièrement responsive pour assurer une présentation superbe de votre site sur les appareils de toute taille différentes taille. La section Instagram magnifiquement placée peut être utilisée pour afficher votre compte Instagram et augmenter vos abonnés. Le widget de publicité dans le thème vous aidera à monétiser facilement votre blog. La section newsletter bien placée vous aidera à faire fructifier votre liste d’e-mails et à rester en contact avec vos visiteurs. Fashion Lifestyle est optimisé pour le SEO et la vitesse. Le thème est prêt pour la traduction et prend en charge le RTL et l’extension WooCommerce pour votre plus grand bénéfice. En outre, Fashion Lifestyle est soutenu mondialement, un support personnalisé, et une équipe super active de développeurs et de designers prêts à vous aider ! Découvrir la démo : https://blossomthemes.com/theme-demo/?theme=fashion-lifestyle, lire la documentation : https://docs.blossomthemes.com/docs/fashion-lifestyle/ et obtenir du support : https://blossomthemes.com/support-ticket/"
+
+#: functions.php:549
+msgid "Mobile"
+msgstr "Mobile"
+
+#: functions.php:1079
+msgid " Fashion Lifestyle | Developed By "
+msgstr " Fashion Lifestyle | Développé par "
+
+#: functions.php:511
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:1081
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions.php:1081
+msgid " Powered by %s"
+msgstr "Propulsé par %s"
+
+#: functions.php:749
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:748
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:747
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:416
+msgid "Choose the layout of the home page for your site."
+msgstr "Choisissez la mise en page de la page d'accueil de votre site."
+
+#: functions.php:415
+msgid "Home Page Layout"
+msgstr "Mise en page de la page d'accueil"
+
+#: functions.php:395
+msgid "Home Page Layouts"
+msgstr "Mises en page de la page d'accueil"
+
+#: functions.php:381
+msgid "Choose the layout of the slider for your site."
+msgstr "Choisissez la mise en page du diaporama pour votre site."
+
+#: functions.php:380
+msgid "Slider Layout"
+msgstr "Mise en page du diaporama"
+
+#: functions.php:359
+msgid "Slider Layouts"
+msgstr "Mises en page du diaporama"
+
+#: functions.php:345
+msgid "This is the available layout for header"
+msgstr "Ceci est la mise en page disponible pour l’en-tête"
+
+#: functions.php:324 functions.php:344
+msgid "Header Layout"
+msgstr "Mise en page d'en-tête"
+
+#: functions.php:315
+msgid "Layout Settings"
+msgstr "Réglages de mise en page"
+
+#: functions.php:304
+msgid "Primary color of the theme."
+msgstr "Couleur primaire du thème."
+
+#: functions.php:303
+msgid "Primary Color"
+msgstr "Couleur primaire"
+
+#: functions.php:213
+msgid "Change the font size of your site."
+msgstr "Changez la taille de police du titre de votre site."
+
+#: functions.php:212
+msgid "Font Size"
+msgstr "Taille de police"
+
+#: functions.php:190
+msgid "Secondary font of the site."
+msgstr "Police secondaire du site."
+
+#: functions.php:189
+msgid "Secondary Font"
+msgstr "Police secondaire"
+
+#: functions.php:169
+msgid "Primary font of the site."
+msgstr "Police principale du site."
+
+#: functions.php:168
+msgid "Primary Font"
+msgstr "Police principale"
+
+#: functions.php:148
+msgid "Typography"
+msgstr "Typographie"
+
+#: functions.php:132
+msgid "%1$sDocumentation Link:%2$s %3$sClick here.%4$s"
+msgstr "%1$sLien de documentation :%2$s %3$sCliquez ici.%4$s"
+
+#: functions.php:130
+msgid "%1$sDemo Link:%2$s %3$sClick here.%4$s"
+msgstr "%1$sLien de démo :%2$s %3$sCliquez ici.%4$s"
+
+#: functions.php:115
+msgid "Demo & Documentation"
+msgstr "Démo et documentation"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+#: style.css functions.php:1080
+#, gp-priority: low
+msgid "Blossom Themes"
+msgstr "Blossom Themes"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://blossomthemes.com/themes/fashion-lifestyle-free-wordpress-theme"
+msgstr "https://blossomthemes.com/themes/fashion-lifestyle-free-wordpress-theme"

@@ -1,0 +1,766 @@
+/*
+Theme Name: Elegant Pin
+Theme URI: https://rarathemes.com/wordpress-themes/elegant-pin/
+Template: elegant-pink  
+Author: Rara Theme
+Author URI: https://rarathemes.com/
+Description: Elegant Pin is a child theme of Elegant Pink free WordPress theme. This theme features a vibrant masonry layout which helps you display your content in a stylish way on every screen sizes and devices. You can create a fully responsive & mobile-friendly website excellent blog with this theme without writing a single line of code. This theme features a stunning and visually appealing layout on the front-end and easy to use content management system on the back-end. Also, the theme is optimized for speed to give the least load time to your website and provide an excellent user experience to your visitors. Furthermore, it is ultra-SEO optimized along with Schema.org markup ready to help your website rank higher in search engine results. Elegant Pin comes with extensive and easy to use documentation guide to help you create a professional blog from scratch. This theme can be the best choice to share your expert ideas on topics like fashion, beauty, makeup, fitness, lifestyle, recipes, travel, coaching, or parenting by creating a blog. The theme is translation ready, supports RTL and Cross Browser Compatible. Also, Elegant Pin is backed by world-class, one-on-one support, and a super active team of developers and designers ready to help! Check the demo at https://rarathemes.com/previews/?theme=elegant-pin/, documentation at https://docs.rarathemes.com/docs/elegant-pin/, and get support at https://rarathemes.com/support-ticket/.
+Version: 1.0.6
+Requires PHP: 5.6
+Tested up to: 6.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: elegant-pin
+Tags: blog, two-columns, right-sidebar, footer-widgets, custom-background, custom-menu, featured-image-header, featured-images, post-formats, threaded-comments, translation-ready, full-width-template, theme-options, news
+*/
+
+:root {
+    --primary-color: #ea3c53;
+    --primary-font: 'Nunito Sans', sans-serif;
+    --secondary-font: 'EB Garamond', serif;
+}
+
+.site {
+    background: #FBFBFA;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 1.650em;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover,
+a:focus {
+    color: var(--primary-color);
+}
+
+.site-header .social-networks li a:hover,
+.site-header .social-networks li a:focus {
+    color: var(--primary-color);
+}
+
+.main-navigation ul li a {
+    border-top: 1px solid transparent;
+}
+
+.main-navigation ul li a:hover,
+.main-navigation ul li a:focus,
+.main-navigation ul li:hover>a,
+.main-navigation ul li:focus>a,
+.main-navigation ul .current_page_item>a,
+.main-navigation ul .current_page_ancestor>a,
+.main-navigation ul .current-menu-item>a,
+.main-navigation ul .current-menu-ancestor>a {
+    border-top-color: var(--primary-color);
+}
+
+.main-navigation ul ul li a:hover,
+.main-navigation ul ul li a:focus,
+.main-navigation ul ul li:hover>a,
+.main-navigation ul ul li:focus>a,
+.main-navigation ul ul .current-menu-item>a,
+.main-navigation ul ul .current-menu-ancestor>a,
+.main-navigation ul ul .current_page_item>a {
+    color: var(--primary-color);
+}
+
+.slideshow .banner-text .category {
+    font-size: 12px;
+    line-height: 1.250em;
+    font-family: var(--primary-font);
+    margin: 0 0 10px;
+}
+
+.slideshow .banner-text .category a {
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 100px;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.slideshow .banner-text .category a:hover,
+.slideshow .banner-text .category a:focus {
+    text-decoration: none;
+    background: #000;
+}
+
+.slideshow .banner-text .title {
+    font-weight: 400;
+    font-family: var(--secondary-font);
+    text-transform: none;
+}
+
+.slideshow .banner-text .btn-readmore {
+    font-family: var(--primary-font);
+    background: var(--primary-color);
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.slideshow .banner-text .btn-readmore:hover,
+.slideshow .banner-text .btn-readmore:focus {
+    background: #000;
+}
+
+.post .entry-meta,
+.page .entry-meta {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#primary .post,
+#primary .latest_post {
+    -webkit-transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    transition: linear 0.2s;
+}
+
+#primary .post:hover,
+#primary .post:focus,
+#primary .latest_post:hover,
+#primary .latest_post:focus {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+#primary .post .text-holder,
+#primary .latest_post .text-holder {
+    text-align: left;
+    padding: 30px;
+    -webkit-transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    transition: linear 0.2s;
+}
+
+#primary .post:hover .text-holder,
+#primary .post:focus .text-holder,
+#primary .latest_post:hover .text-holder,
+#primary .latest_post:focus .text-holder {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+#primary .post .text-holder .category,
+#primary .latest_post .text-holder .category {
+    margin: 0 0 15px;
+    font-size: 12px;
+    line-height: 1.250em;
+    font-family: var(--primary-font);
+}
+
+#primary .post .text-holder .category a,
+#primary .latest_post .text-holder .category a {
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    display: inline-block;
+    border-radius: 100px;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+#primary .post .text-holder .category a:hover,
+#primary .post .text-holder .category a:focus,
+#primary .latest_post .text-holder .category a:hover,
+#primary .latest_post .text-holder .category a:focus {
+    text-decoration: none;
+    background: #000;
+}
+
+#primary .post .text-holder .entry-header,
+#primary .latest_post .text-holder .entry-header {
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+#primary .post .text-holder .entry-header:after,
+#primary .latest_post .text-holder .entry-header:after {
+    display: none;
+}
+
+#primary .post .text-holder .entry-title,
+#primary .latest_post .text-holder .entry-title {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    text-transform: none;
+    font-size: 26px;
+    line-height: 1.250em;
+}
+
+.single #primary .post .text-holder .entry-title,
+#primary .page .text-holder .entry-title {
+    font-size: 36px;
+}
+
+#primary .post .text-holder .entry-title a,
+#primary .latest_post .text-holder .entry-title a {
+    color: #1b1b1b;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+#primary .post .text-holder .entry-title a:hover,
+#primary .post .text-holder .entry-title a:focus,
+#primary .latest_post .text-holder .entry-title a:hover,
+#primary .latest_post .text-holder .entry-title a:focus {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#primary .post .text-holder .btn-readmore,
+#primary .latest_post .text-holder .btn-readmore {
+    padding: 0 35px 0 0;
+    line-height: 1.250em;
+    background: none;
+    color: var(--primary-color);
+    position: relative;
+    /*font-weight: 400;*/
+}
+
+#primary .post .text-holder .btn-readmore:after,
+#primary .latest_post .text-holder .btn-readmore:after {
+    content: "";
+    background-image: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 30 10"><g id="arrow" transform="translate(-10)"><path fill="%23ea3c53" d="M24.5,44.974H46.613L44.866,40.5a34.908,34.908,0,0,0,9.634,5,34.908,34.908,0,0,0-9.634,5l1.746-4.474H24.5Z" transform="translate(-14.5 -40.5)"></path></g></svg>');
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    opacity: 1;
+    border: none;
+    transition: ease 0.2s;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#primary .post .text-holder .btn-readmore:hover:after,
+#primary .post .text-holder .btn-readmore:focus:after,
+#primary .latest_post .text-holder .btn-readmore:hover:after,
+#primary .latest_post .text-holder .btn-readmore:focus:after {
+    -webkit-transform: translate(10px, -50%);
+    -moz-transform: translate(10px, -50%);
+    transform: translate(10px, -50%);
+}
+
+#primary .post .entry-content,
+#primary .page .entry-content {
+    margin-top: 0;
+}
+
+#load-posts a {
+    background: var(--primary-color);
+    border-radius: 100px;
+}
+
+#load-posts a:hover,
+#load-posts a:focus {
+    background: #000;
+}
+
+.archive-title,
+.search .page-header .page-title {
+    font-weight: 400;
+    text-transform: none;
+    font-family: var(--secondary-font);
+}
+
+.error-holder h1 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+/*==================================
+ Instagram-section style
+ ==================================*/
+.instagram-section {
+    background: #fff;
+    padding: 107px 0 0;
+    position: relative;
+}
+
+.instagram-section .profile-link {
+    font-size: 1.111em;
+    line-height: 1.300em;
+    text-align: center;
+    margin: 0 0 30px;
+    font-weight: 700;
+    color: #000;
+    position: absolute;
+    top: 48px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.instagram-section .profile-link:hover,
+.instagram-section .profile-link:focus {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.instagram-section .profile-link span.insta-icon {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.instagram-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.instagram-section ul li {
+    float: left;
+    width: 16.6667%;
+    position: relative;
+}
+
+.instagram-section ul.photos-1 li {
+    width: 100%;
+}
+
+.instagram-section ul.photos-2 li {
+    width: 50%;
+}
+
+.instagram-section ul.photos-3 li {
+    width: 33.333%;
+}
+
+.instagram-section ul.photos-4 li {
+    width: 25%;
+}
+
+.instagram-section ul.photos-5 li {
+    width: 20%;
+}
+
+.instagram-section ul li a {
+    display: block;
+}
+
+.instagram-section ul li img {
+    vertical-align: top;
+    width: 100%;
+    /*height: 320px;*/
+    object-fit: cover;
+}
+
+.instagram-section ul li .instagram-meta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+    color: #fff;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.instagram-section ul li .instagram-meta .like,
+.instagram-section ul li .instagram-meta .comment {
+    margin: 0 5px;
+}
+
+.instagram-section ul li:hover .instagram-meta,
+.instagram-section ul li:focus .instagram-meta {
+    opacity: 1;
+}
+
+.blossomthemes-email-newsletter-wrapper {
+    padding: 80px 0;
+}
+
+.blossomthemes-email-newsletter-wrapper .text-holder {
+    background: inherit;
+    padding: 0 15px;
+    max-width: 795px;
+    width: 100%;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.blossomthemes-email-newsletter-wrapper .text-holder h3 {
+    font-size: 40px;
+    line-height: 1.25em;
+    font-weight: 400;
+    margin: 0 0 15px;
+    font-family: var(--secondary-font);
+}
+
+.blossomthemes-email-newsletter-wrapper .text-holder span {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.blossomthemes-email-newsletter-wrapper form {
+    max-width: 795px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    font-size: 14px;
+    line-height: 1.250em;
+}
+
+.blossomthemes-email-newsletter-wrapper form label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.blossomthemes-email-newsletter-wrapper form input[type="text"],
+.blossomthemes-email-newsletter-wrapper form input[type="email"] {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 0 20px 0 0;
+}
+
+.blossomthemes-email-newsletter-wrapper form input[type="submit"] {
+    width: auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: var(--primary-color);
+    cursor: pointer;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.blossomthemes-email-newsletter-wrapper form input[type="submit"]:hover,
+.blossomthemes-email-newsletter-wrapper form input[type="submit"]:focus {
+    background: #000;
+}
+
+.blossomthemes-email-newsletter-wrapper form label .check-mark {
+    border-color: #000;
+}
+
+#secondary .widget .widget-title {
+    font-family: var(--primary-font);
+    color: #474747;
+}
+
+.widget ul {
+    font-family: var(--primary-font);
+    font-size: 16px;
+}
+
+.widget ul li a {
+    color: #474747;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.widget ul li a:hover,
+.widget ul li a:focus {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.widget .blossomthemes-email-newsletter-wrapper {
+    padding: 30px;
+}
+
+.widget .blossomthemes-email-newsletter-wrapper .text-holder {
+    margin-bottom: 25px;
+    border-bottom: 0;
+}
+
+.widget .blossomthemes-email-newsletter-wrapper .text-holder h3 {
+    font-size: 25px;
+    padding: 0;
+}
+
+.widget .blossomthemes-email-newsletter-wrapper .text-holder span {
+    font-size: 15px;
+}
+
+.widget .blossomthemes-email-newsletter-wrapper form {
+    flex-direction: column;
+}
+
+.widget .blossomthemes-email-newsletter-wrapper form input[type="text"],
+.widget .blossomthemes-email-newsletter-wrapper form input[type="email"] {
+    flex-basis: inherit;
+    flex-grow: inherit;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+#secondary .widget_btif_instagram_widget ul li {
+    width: 33.33% !important;
+    height: 90px;
+}
+
+#secondary .widget_btif_instagram_widget ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.widget_media_gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -2px;
+}
+
+.widget_media_gallery .gallery .gallery-item {
+    margin: 0 0 4px;
+    padding: 0 2px;
+    width: 33.333% !important;
+}
+
+.widget_media_gallery .gallery .gallery-item img {
+    vertical-align: top;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+.widget_elegant_pink_featured_post .readmore:hover,
+.widget_elegant_pink_featured_post .readmore:focus {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.widget.widget_elegant_pink_recent_post .entry-header .entry-title,
+.widget.widget_elegant_pink_popular_post .entry-header .entry-title {
+    padding: 0;
+    font-family: var(--primary-font);
+}
+
+.widget.widget_elegant_pink_recent_post .entry-header .entry-title a:hover,
+.widget.widget_elegant_pink_popular_post .entry-header .entry-title a:hover,
+.widget.widget_elegant_pink_recent_post .entry-header .entry-title a:focus,
+.widget.widget_elegant_pink_popular_post .entry-header .entry-title a:focus {
+    color: var(--primary-color);
+}
+
+#secondary .widget_elegant_pink_social_links ul li a:hover,
+#secondary .widget_elegant_pink_social_links ul li a:focus {
+    background: var(--primary-color);
+}
+
+.site-footer .widget .widget-title {
+    font-family: var(--primary-font);
+    color: #474747;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.site-footer .widget_btif_instagram_widget ul li {
+    width: 33.33% !important;
+    height: 90px;
+}
+
+.site-footer .widget_btif_instagram_widget ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.site-footer .widget_elegant_pink_social_links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+.site-footer .widget_elegant_pink_social_links ul li {
+    float: left;
+    margin-right: 3px;
+    border-bottom: 0;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+
+.site-footer .widget_elegant_pink_social_links ul li a {
+    display: block;
+    width: 31px;
+    height: 31px;
+    -webkit-border-radius: 100px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background: #1b1b1b;
+}
+
+.site-footer .widget_elegant_pink_social_links ul li a:hover,
+.site-footer .widget_elegant_pink_social_links ul li a:focus {
+    text-decoration: none;
+    background: var(--primary-color);
+}
+
+.site-footer .site-info {
+    margin: 40px 0;
+}
+
+.page #primary .page:hover,
+.page #primary .page:focus,
+.single #primary .post:hover,
+.single #primary .post:focus {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.page #primary .page:hover .text-holder,
+.page #primary .page:focus .text-holder,
+.single #primary .post:hover .text-holder,
+.single #primary .post:focus .text-holder {
+    box-shadow: none;
+}
+
+.comment-form input[type="submit"] {
+    font-family: var(--primary-font);
+    background: var(--primary-color);
+}
+
+.comment-form input[type="submit"]:hover,
+.comment-form input[type="submit"]:focus {
+    background: #000;
+}
+
+.post-navigation a {
+    color: var(--primary-color);
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form textarea {
+    font-family: var(--primary-font);
+}
+
+.comment-list .comment-author .fn {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+.comment-list .commentmetadata a:hover,
+.comment-list .commentmetadata a:focus {
+    color: var(--primary-color);
+}
+
+.widget_calendar table a,
+.widget_calendar .wp-calendar-nav a {
+    background: var(--primary-color);
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .mobile-main-navigation ul li a:hover,
+    .mobile-main-navigation ul li a:focus,
+    .mobile-main-navigation ul li:hover>a,
+    .mobile-main-navigation ul li:focus>a,
+    .mobile-main-navigation ul .current-menu-item>a,
+    .mobile-main-navigation ul .current-menu-ancestor>a,
+    .mobile-main-navigation ul .current_page_item>a,
+    .mobile-main-navigation ul .current_page_ancestor>a {
+        color: var(--primary-color);
+    }
+
+    .mobile-menu .social-networks li a {
+        border-color: var(--primary-color);
+    }
+
+    .mobile-menu .social-networks li a:hover,
+    .mobile-menu .social-networks li a:focus {
+        background: var(--primary-color);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .instagram-section ul li {
+        width: 50% !important;
+    }
+
+    .instagram-section ul li img {
+        height: inherit;
+    }
+
+    .slideshow .owl-theme .owl-nav .owl-next {
+        top: 20%;
+        right: 10px;
+    }
+
+    .slideshow .owl-theme .owl-nav .owl-prev {
+        top: 20%;
+        left: 10px;
+    }
+}
+
+/* Underline fixes post */
+.entry-content a:hover,
+.entry-summary a:hover,
+.page-content a:hover,
+.comment-content a:hover,
+.widget .textwidget a:hover {
+	color: var(--primary-color);
+}
+
+.single-post .post .no-image .entry-meta {
+    display: block;
+}
+
+.single-post #primary .site-main .post .text-holder {
+    padding: 60px 50px;
+}
+
+.single-post .post .no-image .entry-meta li a {
+    color: var(--primary-color);
+}
+
+.single-post .post .no-image .entry-meta li a::before {
+    background-color: var(--primary-color);
+}
+
+.single-post .post .no-image .entry-meta li {
+    color: var(--primary-color);
+}

@@ -1,0 +1,23 @@
+/*
+Theme Name: StorePress
+Theme URI: https://vfthemes.com/themes/storepress-free/
+Author: vfthemes
+Author URI: https://vfthemes.com/
+Description: StorePress is a Multipurpose WooCommerce Theme designed for all kinds of e-commerce websites like clothes, electronics, fashion, furniture, jewelry, organic, product landing page, modern shop, minimal store, etc. The goal was to design something that offers all the possible features you need to create your amazing website. The theme is a very user-friendly platform and is suitable for eCommerce Stores. Checkout the Pro Demo https://vfthemes.com/theme-demo/storepress-pro/
+Version: 1.0.12
+Tested up to: 6.7
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: storepress
+Slug: storepress
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, grid-layout, portfolio, e-commerce
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+blockquote {
+    border-color: inherit !important;
+}

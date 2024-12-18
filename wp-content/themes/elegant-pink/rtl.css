@@ -1,0 +1,175 @@
+/*
+Theme Name: Elegant Pink
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.site-header .social-networks {
+    float: right;
+}
+
+.site-header .search-form {
+    float: left;
+}
+
+.site-header .search-form input[type="search"] {
+    float: right;
+}
+
+.site-header .search-form input[type="submit"] {
+    float: left;
+}
+
+.site-header .social-networks li {
+    float: right;
+    margin-left: 0;
+    margin-right: 21px;
+}
+
+.site-header .social-networks li:first-child {
+    margin-right: 0;
+}
+
+.main-navigation ul ul {
+    padding-right: 0;
+}
+
+.main-navigation ul li:hover > ul {
+    left: auto;
+    right: 0;
+}
+
+.main-navigation ul ul li a {
+    text-align: right;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+    left: auto;
+    right: 100%;
+}
+
+#load-posts .fa {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.post .entry-meta li,
+.page .entry-meta li {
+    padding-left: 0;
+    padding-right: 13px;
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.post .entry-meta li:first-child,
+.page .entry-meta li:first-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.post .entry-meta li,
+.page .entry-meta li {
+    background-position: 100% 3px;
+}
+
+.site-footer .col {
+    float: right;
+}
+
+.widget.widget_elegant_pink_recent_post .post-thumbnail,
+.widget.widget_elegant_pink_popular_post .post-thumbnail {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.site-footer .site-info span{
+	display: inline-block;
+	border-left: 0;
+	border-right:1px solid #8a8a8a;
+}
+
+.site-footer .site-info span:first-child{
+	border-right: 0;
+}
+
+.wpcf7{
+	direction: rtl;
+}
+
+.single-post .post .entry-title::after, .page-template-default .entry-title::after{
+	left: auto;
+	right: 0;
+}
+
+.comment-list .avatar{
+	margin-right: 0;
+	margin-left: 26px;
+}
+
+.comment-list .commentmetadata{
+	left: auto;
+	right: 124px;
+}
+
+.comment-list .comment-content{
+	left: auto;
+	right: 124px;
+}
+
+.comment-list .reply{
+	left: auto;
+	right: 124px;
+}
+
+.comment-list .children{
+	margin:-40px 124px 0 0;
+}
+
+.widget.widget_search .search-form label,
+.widget.widget_search .search-form input[type="search"],
+#secondary .widget_elegant_pink_social_links ul li,
+.error-holder .search-form label{
+	float: right;
+}
+
+.widget.widget_search .search-form input[type="submit"],
+.error-holder .search-form input[type="submit"]{
+	float: left;
+}
+
+#secondary .widget_elegant_pink_social_links ul li{
+	margin-right: 0;
+	margin-left: 3px;
+}
+
+@media only screen and (max-width: 1024px){
+    .mobile-menu{
+        right: inherit;
+        left: 0;
+        -webkit-transform: translateX(-420px);
+        -moz-transform: translateX(-420px);
+        transform: translateX(-420px);
+    }
+
+    .mobile-menu .btn-close-menu{
+        right: inherit;
+        left: 20px;
+    }
+
+    .mobile-main-navigation ul li .angle-down{
+        right: inherit;
+        left: 0;
+    }
+}

@@ -1,0 +1,30 @@
+.storepress-upsale .accordion-section-title { 
+	text-align: center;
+    color: #000 !important;
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+.storepress-upsale .btn-group {
+	text-align: center;	
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.storepress-upsale .btn-group a {
+    margin-right: -7px;	
+}	
+
+.storepress-upsale .btn-group a.demo {
+    background: #008000;
+    color: #fff;
+    border-color: #008000;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.storepress-upsale .btn-group a.pro {
+    background: #d53333;
+    color: #fff;
+	border-color: #d53333;
+	border-radius: 0px 3px 3px 0px;
+}
