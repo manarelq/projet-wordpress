@@ -1,0 +1,19 @@
+# Ignorer les fichiers de configuration de WordPress
+wp-config.php
+
+# Ignorer les logs
+*.log
+
+# Ignorer les bases de données exportées
+*.sql
+
+# Ignorer les fichiers générés par les outils de développement
+node_modules/
+.vscode/
+
+# Ignorer les fichiers d'exportation WordPress
+*.zip
+
+# Ignorer les fichiers temporaires
+*.bak
+*.swp
